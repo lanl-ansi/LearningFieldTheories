@@ -10,17 +10,13 @@ This repository contains Julia implementations of classical and gauge lattice fi
 | **2D Wegner’s Ising Gauge Theory (WIGT)** | 2D        | Link-variable lattice gauge theory; implemented with Metropolis and Cluster algorithms; Wilson-loop and string-tension estimation; various RG blocking schemes. |
 | **2D Z₂ Higgs Model**                     | 2D        | Coupled matter–gauge system; spontaneous symmetry breaking and confinement; joint sampling of link and matter fields.                                           |
 
-###Key Results
+## Key Results
 
-Demonstrates that inverse Ising and inverse gauge models can be learned directly from Monte Carlo samples.
-
-Recovers known RG fixed points and scaling laws for learned couplings.
-
-Extracts string tension from Wilson-loop expectation values, showing area-law confinement.
-
-Establishes error-scaling with sample sizes.
-
-Connects gauge dualities (Schwinger ↔ Dual Schwinger) with learned coarse-grained couplings.
+- Demonstrates that **inverse Ising** and **inverse gauge** models can be learned directly from Monte Carlo samples.  
+- Recovers known **RG fixed points** and **scaling laws** for the learned couplings.  
+- Extracts **string tension** from Wilson-loop expectation values, confirming the **area-law confinement** behavior.  
+- Establishes **error-scaling** with sample size, following \( |\hat{K} - K| \propto N^{-1/2} \).  
+- Connects **gauge dualities** (Schwinger ↔ Dual Schwinger) with **learned coarse-grained couplings** along the RG flow.  
 
 ## Design and Methodology
 
