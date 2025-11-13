@@ -38,3 +38,4 @@ Diagnostic tools include **error-scaling with sample size**, **autocorrelation t
 
 Together, these components demonstrate how **data-driven learning** recovers **renormalization behavior**, **universality**, and **confinement properties** from raw lattice configurations.
 
+This code is provided under a BSD license as part of the Optimization, Inference and Learning for Advanced Networks project, C18014.
