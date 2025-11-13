@@ -1,5 +1,5 @@
 # LearningFieldTheories
-This repository contains Julia implementations of classical and gauge lattice field theories with explicit sampling, parameter learning, and renormalization-group (RG) flow analysis. The goal is to unify statistical inference and field-theoretic RG methods, demonstrating how coupling constants and effective Hamiltonians can be learned directly from simulated data.
+This repository contains Julia implementations of classical and gauge lattice field theories with explicit sampling, parameter learning, and renormalization-group (RG) flow analysis. The goal is to unify statistical inference and field-theoretic RG methods, demonstrating how coupling constants and effective Hamiltonians can be learned directly from simulated or experimental data.
 
 | Model                                     | Dimension | Description / Key Features                                                                                                                                      |
 | ----------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -12,7 +12,7 @@ This repository contains Julia implementations of classical and gauge lattice fi
 
 ## Key Results
 
-- Demonstrates that models with **discrete, continuous or mixed data** can be learned directly from Monte Carlo samples.  
+- Demonstrates that models with **discrete, continuous or mixed data** can be learned directly from Monte Carlo samples and from moments only.  
 - Recovers known **RG fixed points** and **scaling laws** for the learned couplings.  
 - Extracts **string tension** from Wilson-loop expectation values, confirming the **area-law confinement** behavior.  
 - Establishes **error-scaling** with sample size, following \( |\hat{K} - K| \propto N^{-1/2} \).  
