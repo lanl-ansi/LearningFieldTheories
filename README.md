@@ -12,11 +12,12 @@ This repository contains Julia implementations of classical and gauge lattice fi
 
 ## Key Results
 
-- Demonstrates that **inverse Ising** and **inverse gauge** models can be learned directly from Monte Carlo samples.  
+- Demonstrates that models with **discrete, continuous or mixed data** can be learned directly from Monte Carlo samples.  
 - Recovers known **RG fixed points** and **scaling laws** for the learned couplings.  
 - Extracts **string tension** from Wilson-loop expectation values, confirming the **area-law confinement** behavior.  
 - Establishes **error-scaling** with sample size, following \( |\hat{K} - K| \propto N^{-1/2} \).  
-- Connects **gauge dualities** (Schwinger ↔ Dual Schwinger) with **learned coarse-grained couplings** along the RG flow.  
+- Connects **gauge dualities** (Schwinger ↔ Dual Schwinger) with **learned coarse-grained couplings** along the RG flow.
+- Learns **new non-perturbative behavior** about relevant and irrelevant operators  
 
 ## Design and Methodology
 
