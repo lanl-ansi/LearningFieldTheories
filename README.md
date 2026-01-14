@@ -41,3 +41,16 @@ Together, these components demonstrate how **data-driven learning** recovers **r
 
 ## License
 This code is provided under a BSD license as part of the Optimization, Inference and Learning for Advanced Networks project, C18014.
+
+## Citation
+If you use this repository in your work, please cite:
+```bibtex
+@misc{LSFT2025,
+      title        = {Learning of Statistical Field Theories},
+      author       = {Shreya Shukla and Abhijith Jayakumar and Andrey Y. Lokhov},
+      year         = {2025},
+      eprint       = {2511.09859},
+      archivePrefix= {arXiv},
+      primaryClass = {cond-mat.stat-mech},
+      url          = {https://arxiv.org/abs/2511.09859}
+}
