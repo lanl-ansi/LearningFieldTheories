@@ -38,6 +38,8 @@ Physical quantities such as **plaquette energy**, **autocorrelation functions**,
 Diagnostic tools include **error-scaling with sample size**, **autocorrelation time estimation**, and **RG fixed-point detection**.
 
 Together, these components demonstrate how **data-driven learning** recovers **renormalization behavior**, **universality**, and **confinement properties** from raw lattice configurations.
+### Data for Figures
+Data for the figures/plots in the draft are now saved in the **Data Folder** as LSFT_paper_figure_data.xlsx.
 
 ## License
 This code is provided under a BSD license as part of the Optimization, Inference and Learning for Advanced Networks project, C18014.
